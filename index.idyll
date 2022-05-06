@@ -1,0 +1,214 @@
+[meta title:"IS 445: Final Project: Part 3" description:"An Interactive Data Visualization Article" /]
+
+[Header
+  fullWidth:true
+  title:"IS 445: Final Project: Top 1000 IMDB Movies by Rating"
+  subtitle:"An Interactive Data Visualization Article on Top 1000 IMDB Movies"
+  author:"Yash Navlakha"
+  date:"May 4, 2022"
+  background:"#33333f"
+  color:"#ffffff"
+   /]
+
+# Brief Introduction:
+
+Since I wanted to build an interactive dashboard and later, a journal style webpage, I wanted to 
+take a dataset that was relatable to everyone and at the same time helped everyone as well. As a 
+result, I chose the "Top 1000 Movies on IMDB" dataset.
+
+Ocassionally, everyone loves to relax and either binge watch a series or watch a good movie. This
+visualization helps the user decide between the kind of movie that he/she wants to watch. 
+
+There are various attributes in the dataset which when analyzed and visualized can help the user
+pick a movie to watch which is worth their time.
+
+### Some attributes are: 
+
+1. IMDB Rating
+2. Director Name
+3. Cast
+4. Meta-score
+5. Gross Revenue
+6. Certificate
+7. No. of votes
+
+# Dashboard 1: Certificates of Movies and it's attibutes:  
+
+[TableauEmbed link:"https://public.tableau.com/views/DataVizFinalProject1_16517815784490/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link" width:"165%" margin-left:"auto" margin-right:"auto" height:"835"/]
+
+## Navigation through the dashboard: 
+
+#### This dashboard consists of 3 visualizations:
+
+1. An illustration to show Movie Name, Certificate and it's IMDB Rating
+2. A visualization to show Certificate of movies and Average Meta-score
+3. A graphical representation of Movie Name, Gross amount and certificate  
+
+
+## How to navigate through the dashboard to explore the dataset: 
+
+The dashboard conists of 3 visualizations with 2 being on top and one being on bottom. The user can scroll through the first visualization, that is the
+visualization on the top left to view the Movie Name, Certificate and the IMDB Rating. If the user wants to know more about the movie in order to decide
+whether or not the user wants to see it, the user can select or click on any one of the movie titles and then the other two will change accordingly.
+
+This visulization also helps the user know certain facts about the movie like the meta score and the gross amount of the movie. I personally believe, these are a few
+factors which may affect the decision of a user to watch a movie or not watch it.
+
+The added interactivity completes the dashboard together, as the user is able to view the complete information with just one click.
+
+
+# Dashboard 2: Actor and Directors effect on movie's performance  
+
+[TableauEmbed link:"https://public.tableau.com/views/DataVizFinalProject2/Dashboard2?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link" width:"165%" margin-left:"auto" margin-right:"auto" height:"835"/]
+
+## Navigation through the dashboard: 
+
+#### This dashboard consists of 3 visualizations:
+
+1. An illustration to show effect of actor's perfomance on Gross amount
+2. A visualization to show actor's movie and IMDB Rating
+3. A representation to show actor and director's effect on meta-score  
+
+## How to navigate through the dashboard to explore the dataset: 
+
+The second dashboard brings together the details about the actor, the director of the movie, the certificate and other parameters like Gross Amount,
+IMDB Rating and Meta-score. 
+
+Personally, sometimes, I tend to like some movies just because it is directed by one of my favorite directors and/or has one of my favorite actors in it.
+On the contrary, I tend to avoid certain movies for the same reasons. Hence, this dashboard can allow the user to choose a movie based on the liking and
+disliking about a certain director/ actor. 
+
+In order to choose a movie or get information about a movie, the user can choose/ click on any of the three visualizations. Since the visualizations are 
+interconnected, clicking on any on of them will enable the interactivity and help them see other information about the movie as well.
+
+The user can click on either of the following:
+
+1) Movies Name
+2) Actor's Name
+3) Directors Name
+
+Upon clicking, useful information like meta-score, gross amount and IMDB rating will be revealed. 
+
+
+# Dashboard 3: Cast's effect on a movie's performance: 
+
+[TableauEmbed link:"https://public.tableau.com/views/DataVizFinalProject3_16517816283430/Dashboard3?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link" width:"165%" margin-left:"auto" margin-right:"auto" height:"835"/]
+
+## Navigation through the dashboard: 
+
+#### This dashboard consists of 3 visualizations:
+
+1. An illustration to show the whole cast and the IMDB Rating
+2. A visualization to show the whole cast and the meta-score
+3. A graphical representation of the whole cast and the gross amount of the movie
+
+## How to navigate through the dashboard to explore the dataset: 
+
+The final dashboard talks about the one of the most important factors which affect a viewers decision regarding the movie: THE CAST OF THE MOVIE.
+
+The final dashboard which encompasses three visualizations, talks clearly about the cast of the movie, that is all the actors of the movie. Various movies like:
+Avengers Endgame, Ocean's Eleven, Jumanji, etc. have a star studded cast due to which they are the fan favorites of millions of people from across the world.
+
+
+The ability to visualize the actors and the pair of actors can tell the user information about the compatibility and pairing of actors and at the same
+give information about the actor who has worked with various other actors as well. The information about the cast of the movie can reveal other information
+like the certificate, in some cases the genre and storyline as well in case of Oceans series or Avengers or Justice League, etc. 
+
+
+All the three dashboards provide complete interactivity experience for the user so that the user can utilize them to the maximum level and 
+can extract as much information as the user wants.
+
+
+# Contextual Visualizations: 
+
+Similar to what I created in the dashboards above, there are various other visualizations created on other datasets as well which convey some insightful
+information about movies, ratings and much more.
+
+## Visulization 1: 
+
+[img src:`"static/images/viz1.png"`/]
+
+### Explanation: 
+
+The first visualization is a histogram that depicts run time analysis on a dataset of movies. We can see that most of the movies have a runtime between 
+110 minutes to 130 minutes, suggesting that most viewers prefer watching a movie that is between the mentioned timeline. Additionally, as the range of time goes
+less than 110 minutes and increases more than 130 minutes, the frequency of movies reduce, suggesting that there are fewer movies with that timeline.
+
+This has been created by using a datase from Kaggle and using libraries like Seaborn in Python.
+
+
+## Visulization 2: 
+
+[img src:`"static/images/viz2.png"`/]
+
+### Explanation: 
+
+The 2nd visualization is a bar chart which represents the different genres of movie and the count of movies in each of them. This has been created from a dataset
+of Top 100 IMDB movies, its actors, and the voters who have rated these movies online. 
+
+We can see that of the 100 movies, the genre of Drama has the highest number of movies suggesting that people tend to prefer movies with a good plot. While genres
+like Action and Adventure also have a decent amount of movie count, genres like Crime and Animation have the lowest number of movies suggesting that people
+do not prefer such genres.
+
+The dataset is comprised of votes and therefore we can infer that a sample of people would prefer drama over any other given genre.
+
+
+## Visulization 3: 
+
+[img src:`"static/images/viz3.png"`/]
+
+### Explanation: 
+
+This visualization is a horizontal bar chart which shows the top 10 movies on IMDB by rating and the number of votes received by each of them. We an see that 
+"The Shawshank Redemption" which is the highest IMDB rated movie also had the highest number of votes which is 2.01 Million. Subsequently, we have the 
+other nine movies which also received nearly 1.3 Million votes each. The horizontal bar charts are gradient blue and also have the number of votes as labels making
+it easier to read and study.
+
+
+
+## Learnings from the project:
+
+### What I learnt on my own from this assignment?
+
+Starting from part 1, I was not well versed with cleaning data. But upon doing the first part, I learnt about cleaning data, replacing null values, etc.
+For the second part, I always had some trouble with visualization libraries in Python like matplotlib, seaborn, bqplot, etc. The second part gave me an 
+opportunity to work on these libraries and learn more about the syntax and the technical jargon.
+The third part allowed me to work with Tableau and learn more about Idyll, HTML tags and Tableau Integration. Having worked with Tableu for a while,
+I had knowledge of Tableau, but I did not know about the integration of Tableau with idyll. So, I learnt that and then also learnt how a webpage is created,
+designed and hosted on GitHub.
+
+### What I learnt from my group member:
+
+* Kanak Jagwani: Whenever I ran into an error, be it the first, second or the third part of the project, she always helped me understand the problem and helped me resolve it. Not only this, but she also shared Documentation on tableau integration with idyll, idyll components, etc. which made it easier for me to design this page and integrate Tableau. She was always keen and prompt with her part of the project, like writing some part of the code, creating visualizations, researching on integration and then searching Contextual visualizations as well.
+
+
+## Expected plan output vs Actual plan output
+
+### What went according to the plan:
+
+In the part 2, we laid out certain things that we would deliver in part 3. We mentioned a dashboard with interactivity, and contextual visualizations as well which
+we delivered. Not only this, but instead of 2 dashboards, we delivered three dashboards because it helped us learn more about the dataset, about the methods on
+creating and integrating dashboards and also learn more in the process. We also mentioned contextual visulizations and also mentioned how we will explore
+other datasets and their visualizations to look for scope of improvement.
+
+### What things would we do differently next time:
+
+I believe a dataset which would have more data, so it would allow us to clean it more, study more patterns and do a better analysis. Also, a dataset which 
+categorized the movie into one genre would be helpful, as we would get one more categorical variable to create the visualizations and dashboards by. 
+Additionally, we would spend a bit more time researching on contextual visualizations and analyze them to figure their strong and their weak point out
+and improve our visualizations. 
+
+
+
+# Citations:
+
+* [a href:'https://www.kaggle.com/datasets/harshitshankhdhar/imdb-dataset-of-top-1000-movies-and-tv-shows']Dataset URL[/a]
+* [a href:'https://idyll-lang.org/docs/html-tags']Idyll Documentation[/a]
+* [a href:'https://idyll-lang.org/docs/syntax']Idyll Documentation 2[/a]
+* [a href:'https://github.com/snehil1703/imdb-movie-dataset-visualization']Github IMDB Viz Help[/a]
+* [a href:'https://help.tableau.com/current/guides/get-started-tutorial/en-us/get-started-tutorial-share.htm#Use_Tableau_Public']Tableau Public[/a]
+* [a href:'https://www.kaggle.com/code/soorajsureshbaburaj/imdb-movie-data-visualization/notebook']1st and 2nd Contextual Visualization Source[/a]
+* [a href:'https://www.kaggle.com/code/michau96/are-popular-movies-good']3rd Contextual Visualization Source[/a]
+
+
+
